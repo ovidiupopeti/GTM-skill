@@ -10,6 +10,7 @@
 // the agent does that explicitly with the participant.
 
 import { execFileSync, spawnSync } from "node:child_process";
+import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -85,6 +86,8 @@ if (isPublic === false) fail(`${repoUrl} is private. Make it public (Settings â†
 if (isPublic === null) console.log("WARN  could not verify repository visibility; the submission system will.");
 
 // 5. Compose the submission
+const manifest = JSON.parse(readFileSync("submission.json", "utf8"));
+const seedPrompt = readFileSync(manifest.seed_prompt, "utf8").trim();
 const title = `Submission: ${team}`;
 const body = [
   "### Team name", "", team, "",
@@ -92,6 +95,7 @@ const body = [
   "### Track", "", track, "",
   "### Repository URL", "", repoUrl, "",
   "### Commit SHA", "", sha, "",
+  "### Seed prompt", "", seedPrompt, "",
 ].join("\n");
 
 console.log("");
