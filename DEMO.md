@@ -8,9 +8,9 @@ The organizer presents this repository in 2 minutes without having seen it befor
 
 **Track:** Personalized growth engines
 
-**Who has the problem:** An enterprise cybersecurity GTM professional who needs to prioritize accounts and earn a relevant first reply.
+**Who has the problem:** A B2B salesperson who needs to prioritize target accounts and earn a relevant first reply.
 
-**The job this skill does:** Turns public company evidence into a reproducible OutThink fit decision and a role-based two-touch outreach hypothesis.
+**The job this skill does:** Applies any seller's supplied ICP and proof to public target-company evidence, producing a reproducible fit decision and role-based two-touch outreach hypothesis.
 
 **Boundary — what it never does:** It never scrapes or profiles people, infers personality, handles contact data, sends messages, or guesses when evidence is missing.
 
@@ -27,7 +27,7 @@ The organizer presents this repository in 2 minutes without having seen it befor
 
 **Evidence:** The output contains a reproducible five-dimension scorecard and a claim/source/date/confidence table based on Schneider Electric's public pages.
 
-**Fallback output was produced:** 2026-08-28 at 19:09 Europe/Bucharest by running the skill workflow in Codex against the representative input and fetching the listed first-party URLs.
+**Fallback output was produced:** 2026-08-28 at 19:32 Europe/Bucharest by running the generic skill workflow in Codex against the seller-to-target representative input and its listed first-party URLs.
 
 ## Evals — 10 seconds
 
@@ -39,6 +39,6 @@ The organizer presents this repository in 2 minutes without having seen it befor
 
 ## Close — 5 seconds
 
-**Reusable on:** Any target-company input containing public first-party company URLs.
+**Reusable on:** Any B2B seller and target-company input using the same seller/offer/ICP/target contract.
 
 **Material limitation:** Public relevance signals cannot prove buying intent, incumbent dissatisfaction, or likely reply behavior.

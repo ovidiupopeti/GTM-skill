@@ -1,4 +1,32 @@
-# Representative account input
+# Representative seller-to-account input
+
+## Seller
+
+OutThink — AI Human Risk Management platform for enterprises.
+
+### Seller sources
+
+- Homepage: https://outthink.io/
+- HRM vision and maturity model: https://outthink.io/our-vision-for-human-risk-management/
+- Plans: https://outthink.io/plans/
+- Customer examples: https://outthink.io/customers/
+
+Retrieved for the representative run on 2026-08-28.
+
+### Offer and desired next step
+
+OutThink helps enterprises move from compliance activity and generic phishing metrics toward secure behavior and measurable human-risk reduction through adaptive training, simulations, real-time interventions, orchestration, and Human Risk Intelligence. The desired next step is a 20-minute HRM working conversation.
+
+### ICP hypothesis
+
+- Large, distributed, regulated, multinational, frontline, or OT-heavy organizations.
+- Public evidence of security awareness, phishing simulation, security culture, human-risk initiatives, integration complexity, or pressure to quantify risk.
+- Likely roles: CISO; Head/Director of Security Awareness, Human Risk, Security Culture, Cyber Education, or GRC.
+- Relevant triggers: AI-enabled threats, compliance-only metrics, manual program work, fragmented tooling, risk quantification, role-based training, or global orchestration needs.
+
+### Proof and prohibited claims
+
+Allowed proof must be sourced from the seller URLs above. Do not claim buying intent, incumbent dissatisfaction, guaranteed replies, or a specific risk-reduction result for the target. Treat the ICP as a public-evidence hypothesis until validated with CRM and win/loss data.
 
 ## Company
 
@@ -21,4 +49,4 @@ Write `demo/output/schneider-electric-account-fit.md`.
 
 ## Boundary
 
-Use company-level evidence only. Do not search for or process individual profiles, contact details, posts, reactions, or personality traits. Draft messages to a buyer role, never to a named person.
+Use company-level evidence only for this judged run. Do not search for or process individual profiles, contact details, posts, reactions, or personality traits. Draft messages to a buyer role, never to a named person.

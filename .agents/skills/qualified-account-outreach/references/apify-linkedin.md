@@ -42,9 +42,9 @@ The helper checks the authorization flag and expiry. The operator remains respon
 2. Export `APIFY_TOKEN` and `APIFY_PERMISSION_FILE` locally; never place either in a prompt, repository file, shell history, or output.
 3. Run one of:
 
-   `python3 .agents/skills/outthink-account-fit/scripts/apify_linkedin.py search .private/search.json .private/search-results.json`
+   `python3 .agents/skills/qualified-account-outreach/scripts/apify_linkedin.py search .private/search.json .private/search-results.json`
 
-   `python3 .agents/skills/outthink-account-fit/scripts/apify_linkedin.py profile .private/profiles.json .private/profile-results.json`
+   `python3 .agents/skills/qualified-account-outreach/scripts/apify_linkedin.py profile .private/profiles.json .private/profile-results.json`
 
 4. Analyze only fields needed for role relevance and observable professional communication. Keep raw and derived person-level files private unless the authorization explicitly permits public redistribution under MIT.
 

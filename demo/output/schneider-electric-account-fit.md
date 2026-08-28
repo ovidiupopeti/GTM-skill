@@ -5,17 +5,20 @@
 **Likely primary role:** Head/Director of Human Risk, Security Awareness, or Security Culture  
 **Supporting role:** CISO
 
+**Seller:** OutThink — enterprise AI Human Risk Management platform  
+**Target:** Schneider Electric — global energy technology company
+
 This score indicates public evidence of relevance, not buying intent. Schneider Electric's customer, vendor, procurement, and incumbent-platform status could not be verified.
 
 ## Reproducible scorecard
 
 | Dimension | Score | Evidence and reason |
 | --- | ---: | --- |
-| Workforce scale and complexity | 2/2 | Schneider Electric reports 160,000 employees and one million partners in more than 100 countries; its HRM article describes global, regional, role-based, individual, connected, and non-connected workforce layers. |
-| Human-risk exposure | 2/2 | The company operates across factories, infrastructure, grids, and data centers and publicly treats minimizing human risk as a cybersecurity pillar. |
-| Program signal | 2/2 | It describes a comprehensive HRM program with continuous awareness, mandatory training, role-based programs, individual interventions, and targeted phishing simulations. |
-| Change trigger or gap | 1/2 | It says operating an HRM program in a complex global organization is not easy and highlights increasingly sophisticated social engineering. No public source proves a budgeted change initiative or dissatisfaction with current tooling. |
-| OutThink operating fit | 2/2 | The stated program uses context-, role-, region-, and behavior-based interventions at global scale—strong functional overlap with OutThink's adaptive HRM, orchestration, and human-risk-intelligence model. |
+| Firmographic fit | 2/2 | Schneider Electric reports 160,000 employees and one million partners in more than 100 countries; its HRM article describes global, regional, role-based, individual, connected, and non-connected workforce layers. |
+| Problem evidence | 2/2 | The company operates across factories, infrastructure, grids, and data centers, treats minimizing human risk as a cybersecurity pillar, and runs a comprehensive HRM program. |
+| Trigger or timing | 1/2 | It says operating HRM in a complex global organization is not easy and highlights increasingly sophisticated social engineering. No source proves a budgeted change initiative or dissatisfaction with current tooling. |
+| Solution and proof fit | 2/2 | The target's context-, role-, region-, and behavior-based program strongly overlaps the seller's sourced adaptive HRM, orchestration, and human-risk-intelligence capabilities. |
+| Buying-path clarity | 2/2 | The public program has clear enterprise cybersecurity ownership and supports plausible primary roles in Human Risk/Security Awareness plus the CISO, although no individual or procurement path is inferred. |
 
 ## Evidence table
 

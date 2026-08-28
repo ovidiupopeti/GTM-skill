@@ -5,10 +5,10 @@
     "members": ["ovidiupopeti"]
   },
   "track": "personalized-growth-engines",
-  "problem": "An enterprise cybersecurity GTM professional needs to prioritize qualified accounts and turn public company evidence into a relevant role-based two-touch outreach hypothesis.",
-  "entry_skill": ".agents/skills/outthink-account-fit/SKILL.md",
+  "problem": "A B2B salesperson needs a repeatable way to qualify one target account and turn public company evidence into a relevant two-touch outreach hypothesis.",
+  "entry_skill": ".agents/skills/qualified-account-outreach/SKILL.md",
   "skills": [
-    { "path": ".agents/skills/outthink-account-fit/SKILL.md", "role": "Qualify one company from public evidence and draft a role-based two-touch outreach hypothesis." }
+    { "path": ".agents/skills/qualified-account-outreach/SKILL.md", "role": "Apply a generic seller-to-target qualification and two-touch outreach SOP." }
   ],
   "seed_prompt": "demo/seed-prompt.md",
   "input": "demo/input/schneider-electric.md",
