@@ -1,0 +1,7 @@
+interface:
+  display_name: "Qualified Account Outreach"
+  short_description: "Find, qualify, and personalize target accounts"
+  default_prompt: "Use $qualified-account-outreach to explain what you can do, then guide me through choosing the company I sell for and the customers I want to target today."
+
+policy:
+  allow_implicit_invocation: true

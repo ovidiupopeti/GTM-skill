@@ -10,6 +10,7 @@ The input should name:
 - **Offer:** problem solved, credible proof, desired next step, and claims that must not be made.
 - **ICP hypothesis:** target industries, scale, geography, operating conditions, buying roles, triggers, and disqualifiers. If omitted, derive a provisional version from seller-owned pages and label it assumption-based.
 - **Target:** company name, website, and useful first-party URLs.
+- **Or target request:** a plain-language market request such as `top 10 German companies`. Unless the user defines another metric, `top` means strongest apparent fit for the seller's offer. A discovery result is a sourced candidate shortlist, not proof of buying intent.
 - **Output path:** where the brief should be written.
 - **Optional permissioned enrichment:** local authorization record and either Apify search filters or LinkedIn URLs. Never commit these.
 
@@ -41,4 +42,11 @@ Use `priority` for 8–10, `nurture` for 5–7, and `insufficient fit evidence` 
 
 ## Outreach quality bar
 
-The opening observation must be specific enough that it cannot be sent unchanged to every target, but not so personal that it feels monitored. Ask a diagnostic question instead of asserting hidden pain. Use one supported seller capability as the bridge. Mirror the target company's level of formality, not an inferred individual personality. Make the second touch useful even if the first was ignored. Stop before sending and recommend tracking replies and objections before claiming effectiveness.
+Write to the human responsibility behind the role, not to a generic corporate problem. The opening observation must be specific enough that it cannot be sent unchanged to every target, but not so personal that it feels monitored.
+
+- Start with a verified fact, then connect it to a real human stake that is appropriate to the seller's offer: people protected, customers or patients served, time returned, responsibility made more manageable, or work made more meaningful.
+- Acknowledge the effort already visible in the target's program. Be respectful without praising for its own sake or pretending to understand a recipient's inner experience.
+- Ask a diagnostic question instead of asserting hidden pain. Phrase unsourced difficulties as a possibility: `Is this something your team is working through?` rather than `I know this is frustrating.`
+- Use one supported seller capability as the bridge. Favor short, natural sentences and concrete language over feature lists, jargon, and corporate abstractions.
+- Match the target's level of clarity and formality while retaining warmth. Do not infer an individual personality, emotions, vulnerabilities, or likely reaction from public data.
+- Never use fear, guilt, flattery, manufactured urgency, surveillance language, or outcome guarantees. Make the second touch useful even if the first was ignored. Stop before sending and recommend tracking replies and objections before claiming effectiveness.

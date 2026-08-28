@@ -1,11 +1,38 @@
 ---
 name: qualified-account-outreach
-description: Qualifies a target company for any B2B seller and produces sourced two-touch outreach drafts from public company evidence, with optional permissioned LinkedIn enrichment through Apify. Use when salespeople need a repeatable account-research, fit, and message-drafting SOP that stops before sending.
+description: Helps a B2B seller identify best-fit target companies, qualify a selected account, and produce sourced two-touch outreach drafts from public evidence, with optional permissioned LinkedIn enrichment through Apify. Use when a salesperson wants a guided target-account research and outreach workflow that stops before sending.
 ---
 
 # Qualified account outreach
 
-## Input
+## Guided start
+
+When invoked without a complete seller-and-target input, begin as an interactive assistant. Do not research yet.
+
+1. Briefly explain that this skill can:
+   - understand the seller's product and derive a provisional ICP from its website;
+   - turn a plain-language target request into a sourced, ranked account shortlist;
+   - qualify a selected company and draft an evidence-based two-touch outreach sequence;
+   - optionally enrich permitted professional profiles through Apify; and
+   - stop before any message is sent.
+2. Ask only: **What is the website of the company whose products or services you want to sell?**
+3. After the user supplies the seller website, fetch enough seller-owned material to understand the offer. Summarize the seller, product, likely buyer, and provisional ICP in no more than five bullets. Mark all inferred ICP elements as provisional.
+4. Then ask only: **Which customers do you want to target today?** Explain that a plain-language request is enough, for example: `the top 10 German companies`, `UK fintechs with 500–5,000 employees`, or `European manufacturers expanding in the US`.
+5. If the request says `top` without defining the ranking, interpret it as **strongest apparent fit for the seller's offer**, not largest by revenue or headcount. State that interpretation before proceeding. Ask a clarifying question only if geography, company type, or another constraint needed to identify a coherent market is missing.
+
+If the prompt already supplies both the seller and target request, skip answered questions and proceed. If it names one target company and an output path, use the single-account workflow directly.
+
+## Target discovery
+
+For a multi-company request such as `top 10 German companies`:
+
+1. Use the seller-owned evidence and the requested market constraints to define a short, provisional fit rubric. Never present an inferred ICP as the seller's confirmed strategy.
+2. Discover candidates from public sources. Use first-party company pages for material fit claims; use reputable directories, filings, or rankings to build the candidate set. Search snippets are discovery only.
+3. Rank no more than the requested number of companies. For each, show company, website, fit rationale, one or two dated source links, confidence, and the largest unknown or disqualifier. Do not manufacture exact scores when evidence is too thin.
+4. Write or display the sourced shortlist, then ask which account or accounts the user wants to qualify and personalize. Do not silently begin person-level collection.
+5. If the user chooses an account, collect or resolve its official website and continue with the company qualification workflow. If multiple accounts are chosen, produce separate evidence and drafts for each and clearly report any that lack sufficient evidence.
+
+## Complete input
 
 Read the seller profile, target company, public URLs, and requested output path from the file named in the prompt. If the seller offer or target company URL cannot be resolved, write an insufficient-evidence result and stop.
 
@@ -26,7 +53,9 @@ If LinkedIn enrichment is requested, also read `references/apify-linkedin.md`. R
 9. Draft a role-based sequence:
    - Touch 1: 70–100 words; one verified observation, one problem hypothesis, one diagnostic question, and the seller's low-friction next step.
    - Touch 2: 45–75 words; a different evidence-based angle and an easy reply choice.
-   - Use plain professional language. No flattery, manufactured urgency, surveillance language, outcome guarantees, or invented familiarity.
+   - Use warm, plain language that connects the seller's value to the human work at stake: protecting people, helping customers, reducing unnecessary burden, or making responsible work easier. Lead with a specific verified observation, then make the human consequence relevant to the role.
+   - Acknowledge the effort behind the target's existing program without flattery. Never presume that a recipient is stressed, failing, worried, or personally affected; frame those as possibilities or questions.
+   - No manufactured urgency, surveillance language, fear-based pressure, outcome guarantees, or invented familiarity.
 10. Write the requested output with the sections defined in the SOP, then print the decision, top three signals, and output path.
 
 ## Optional authorized-person mode
